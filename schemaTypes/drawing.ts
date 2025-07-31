@@ -31,6 +31,11 @@ export default defineType({
       type: 'number',
       validation: (Rule) => Rule.min(0),
     },
+    {
+      name: 'format',
+      title: 'Format',
+      type: 'string',
+    },
   ],
   preview: {
     select: {
