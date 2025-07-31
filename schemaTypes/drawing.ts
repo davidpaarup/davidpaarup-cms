@@ -36,6 +36,12 @@ export default defineType({
       title: 'Format',
       type: 'string',
     },
+    {
+      name: 'available',
+      title: 'Available',
+      type: 'boolean',
+      initialValue: true,
+    },
   ],
   preview: {
     select: {
