@@ -36,14 +36,6 @@ export default {
       name: 'type',
       title: 'Degree Type',
       type: 'string',
-      options: {
-        list: [
-          { title: 'Bachelor', value: 'bachelor' },
-          { title: 'Master', value: 'master' },
-          { title: 'PhD', value: 'phd' },
-          { title: 'Certificate', value: 'certificate' }
-        ]
-      }
     },
     {
       name: 'description',
