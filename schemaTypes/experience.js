@@ -51,14 +51,6 @@ export default {
       name: 'type',
       title: 'Employment Type',
       type: 'string',
-      options: {
-        list: [
-          { title: 'Full-time', value: 'full-time' },
-          { title: 'Part-time', value: 'part-time' },
-          { title: 'Internship', value: 'internship' },
-          { title: 'Contract', value: 'contract' }
-        ]
-      }
     }
   ],
   preview: {
